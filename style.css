@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(151,0,255,1) 53%, rgba(0,212,255,1) 100%);
+  --bg-url: linear-gradient(117deg, rgba(214,25,25,1) 11%, rgba(255,151,0,1) 44%, rgba(247,255,0,0.9626225490196079) 94%);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: linear-gradient(117deg, rgba(25,182,214,1) 11%, rgba(0,255,233,1) 83%, rgba(154,74,190,0.9626225490196079) 97%);
+  --bg-url: linear-gradient(117deg, rgba(25,214,210,1) 11%, rgba(0,110,255,1) 44%, rgba(40,0,255,0.9626225490196079) 94%);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -171,11 +171,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(151,0,255,1) 53%, rgba(0,212,255,1) 100%);
+    --bg-url: linear-gradient(117deg, rgba(214,25,25,1) 11%, rgba(255,151,0,1) 44%, rgba(247,255,0,0.9626225490196079) 94%);
   }
 
   .light {
-    --bg-url: linear-gradient(117deg, rgba(25,182,214,1) 11%, rgba(0,255,233,1) 83%, rgba(154,74,190,0.9626225490196079) 97%) ;
+    --bg-url: linear-gradient(117deg, rgba(25,214,210,1) 11%, rgba(0,110,255,1) 44%, rgba(40,0,255,0.9626225490196079) 94%);
   }
 }
 
